@@ -101,7 +101,7 @@
       },
       {
         "id": 303,
-        "name": "奶酥吐司",
+        "name": "巧克力吐司",
         "cateId": 3,
         "price": 35,
         "extraType": [3],
@@ -109,35 +109,19 @@
       },
       {
         "id": 401,
-        "name": "蘿蔔糕",
-        "cateId": 4,
-        "price": 35,
-        "extraType": [1, 6],
-        "image": "snack401"
-      },
-      {
-        "id": 402,
         "name": "炸雞塊",
         "cateId": 4,
         "price": 45,
         "extraType": [6],
-        "image": "snack402"
+        "image": "snack401"
       },
       {
-        "id": 403,
+        "id": 402,
         "name": "薯條",
         "cateId": 4,
         "price": 30,
         "extraType": [6],
-        "image": "snack403"
-      },
-      {
-        "id": 404,
-        "name": "炸甜不辣",
-        "cateId": 4,
-        "price": 40,
-        "extraType": [6],
-        "image": "snack404"
+        "image": "snack402"
       },
       {
         "id": 501,
@@ -165,19 +149,11 @@
       },
       {
         "id": 504,
-        "name": "鮮奶茶",
-        "cateId": 5,
-        "price": 30,
-        "extraType": [4, 5],
-        "image": "drink504"
-      },
-      {
-        "id": 505,
         "name": "美式咖啡",
         "cateId": 5,
         "price": 35,
         "extraType": [4, 5],
-        "image": "drink505"
+        "image": "drink504"
       }
     ],
     "extras": [
