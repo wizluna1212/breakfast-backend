@@ -1,0 +1,854 @@
+{
+  "menu": {
+    "categories": [
+      {
+        "id": 0,
+        "name": "全部"
+      },
+      {
+        "id": 1,
+        "name": "漢堡"
+      },
+      {
+        "id": 2,
+        "name": "三明治"
+      },
+      {
+        "id": 3,
+        "name": "果醬吐司"
+      },
+      {
+        "id": 4,
+        "name": "點心"
+      },
+      {
+        "id": 5,
+        "name": "飲料"
+      }
+    ],
+    "products": [
+      {
+        "id": 101,
+        "name": "豬肉蛋漢堡",
+        "cateId": 1,
+        "price": 65,
+        "extraType": [
+          1
+        ]
+      },
+      {
+        "id": 102,
+        "name": "牛肉起司堡",
+        "cateId": 1,
+        "price": 75,
+        "extraType": [
+          1
+        ]
+      },
+      {
+        "id": 103,
+        "name": "花生醬漢堡",
+        "cateId": 1,
+        "price": 70,
+        "extraType": [
+          1
+        ]
+      },
+      {
+        "id": 104,
+        "name": "總匯漢堡",
+        "cateId": 1,
+        "price": 85,
+        "extraType": [
+          1
+        ]
+      },
+      {
+        "id": 201,
+        "name": "火腿蛋三明治",
+        "cateId": 2,
+        "price": 50,
+        "extraType": [
+          1,
+          2
+        ]
+      },
+      {
+        "id": 202,
+        "name": "鮪魚三明治",
+        "cateId": 2,
+        "price": 55,
+        "extraType": [
+          1,
+          2
+        ]
+      },
+      {
+        "id": 203,
+        "name": "總匯三明治",
+        "cateId": 2,
+        "price": 65,
+        "extraType": [
+          1,
+          2
+        ]
+      },
+      {
+        "id": 301,
+        "name": "花生吐司",
+        "cateId": 3,
+        "price": 30,
+        "extraType": [
+          3
+        ]
+      },
+      {
+        "id": 302,
+        "name": "草莓果醬吐司",
+        "cateId": 3,
+        "price": 30,
+        "extraType": [
+          3
+        ]
+      },
+      {
+        "id": 303,
+        "name": "奶酥吐司",
+        "cateId": 3,
+        "price": 35,
+        "extraType": [
+          3
+        ]
+      },
+      {
+        "id": 401,
+        "name": "蘿蔔糕",
+        "cateId": 4,
+        "price": 35,
+        "extraType": [
+          1,
+          6
+        ]
+      },
+      {
+        "id": 402,
+        "name": "炸雞塊",
+        "cateId": 4,
+        "price": 45,
+        "extraType": [
+          6
+        ]
+      },
+      {
+        "id": 403,
+        "name": "薯條",
+        "cateId": 4,
+        "price": 30,
+        "extraType": [
+          6
+        ]
+      },
+      {
+        "id": 404,
+        "name": "炸甜不辣",
+        "cateId": 4,
+        "price": 40,
+        "extraType": [
+          6
+        ]
+      },
+      {
+        "id": 501,
+        "name": "紅茶",
+        "cateId": 5,
+        "price": 20,
+        "extraType": [
+          4,
+          5
+        ]
+      },
+      {
+        "id": 502,
+        "name": "奶茶",
+        "cateId": 5,
+        "price": 25,
+        "extraType": [
+          4,
+          5
+        ]
+      },
+      {
+        "id": 503,
+        "name": "豆漿",
+        "cateId": 5,
+        "price": 20,
+        "extraType": [
+          4,
+          5
+        ]
+      },
+      {
+        "id": 504,
+        "name": "鮮奶茶",
+        "cateId": 5,
+        "price": 30,
+        "extraType": [
+          4,
+          5
+        ]
+      },
+      {
+        "id": 505,
+        "name": "美式咖啡",
+        "cateId": 5,
+        "price": 35,
+        "extraType": [
+          4,
+          5
+        ]
+      }
+    ],
+    "extras": [
+      {
+        "id": 1,
+        "name": "加料",
+        "type": "add-on",
+        "options": [
+          {
+            "id": 101,
+            "name": "加蛋",
+            "price": 15
+          },
+          {
+            "id": 102,
+            "name": "加菜",
+            "price": 10
+          },
+          {
+            "id": 103,
+            "name": "加起司",
+            "price": 15
+          },
+          {
+            "id": 104,
+            "name": "加培根",
+            "price": 15
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "name": "麵包選擇",
+        "type": "single-choice",
+        "options": [
+          {
+            "id": 201,
+            "name": "三明治",
+            "price": 0
+          },
+          {
+            "id": 202,
+            "name": "改成吐司",
+            "price": 10
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "name": "麵包選擇",
+        "type": "single-choice",
+        "options": [
+          {
+            "id": 301,
+            "name": "吐司",
+            "price": 0
+          },
+          {
+            "id": 302,
+            "name": "改成厚片",
+            "price": 15
+          }
+        ]
+      },
+      {
+        "id": 4,
+        "name": "尺寸",
+        "type": "size",
+        "options": [
+          {
+            "id": 401,
+            "name": "小",
+            "price": 0
+          },
+          {
+            "id": 402,
+            "name": "中",
+            "price": 5
+          },
+          {
+            "id": 403,
+            "name": "大",
+            "price": 10
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "name": "溫度",
+        "type": "tempture",
+        "options": [
+          {
+            "id": 501,
+            "name": "冰",
+            "price": 0
+          },
+          {
+            "id": 502,
+            "name": "溫",
+            "price": 0
+          },
+          {
+            "id": 503,
+            "name": "熱",
+            "price": 0
+          }
+        ]
+      },
+      {
+        "id": 6,
+        "name": "調味料",
+        "type": "condiments",
+        "options": [
+          {
+            "id": 601,
+            "name": "番茄醬",
+            "price": 0
+          },
+          {
+            "id": 602,
+            "name": "胡椒粉",
+            "price": 0
+          },
+          {
+            "id": 603,
+            "name": "醬油膏",
+            "price": 0
+          },
+          {
+            "id": 604,
+            "name": "辣椒醬",
+            "price": 0
+          }
+        ]
+      }
+    ]
+  },
+  "user": [
+    {
+      "id": "C01",
+      "name": "五條悟",
+      "email": "user1@example.com",
+      "password": "123456Bl",
+      "phone": "0900123456",
+      "birthday": "1990/01/01",
+      "createdAt": "2025-03-16T12:34:56Z"
+    },
+    {
+      "id": "C02",
+      "name": "夏油傑",
+      "email": "user2@example.com",
+      "password": "123456Bl",
+      "phone": "0900234567",
+      "birthday": "2000/02/02",
+      "createdAt": "2025-05-30T10:00:00Z"
+    },
+    {
+      "id": "C03",
+      "email": "user3@example.com",
+      "password": "121212qA",
+      "name": "五夏大法好",
+      "phone": "0900123456",
+      "birthday": "2025/06/13",
+      "createdAt": "2025-06-13T06:37:38.470Z"
+    }
+  ],
+  "banners": [
+    {
+      "id": 1,
+      "image": "/images/banner1.jpg",
+      "title": "早起的幸福從這裡開始",
+      "description": "現點現做的早餐",
+      "ctaText": "立即點餐",
+      "ctaLink": "/order"
+    },
+    {
+      "id": 2,
+      "image": "/images/banner2.jpg",
+      "title": "新鮮食材，健康美味",
+      "description": "每天現磨新鮮豆漿",
+      "ctaText": "查看更多",
+      "ctaLink": "/products"
+    }
+  ],
+  "orders": [
+    {
+      "orderId": "order_1749795608067",
+      "timestamp": "2025-06-13T06:20:08.067Z",
+      "customer": {
+        "name": "五條悟",
+        "phone": "0900123456"
+      },
+      "pickupType": "takeout",
+      "takeTime": "2025-06-13T06:39:00.000Z",
+      "paymentMethod": "cash",
+      "items": [
+        {
+          "cartId": "472ab260-2c06-470d-b0b3-4f8c56cb8b6c",
+          "cateId": 1,
+          "prodId": 102,
+          "name": "牛肉起司堡",
+          "price": 75,
+          "quantity": 1,
+          "extraType": [
+            1
+          ],
+          "extras": []
+        }
+      ],
+      "totalPrice": 75,
+      "userId": "C01"
+    },
+    {
+      "orderId": "order_1749796114822",
+      "timestamp": "2025-06-13T06:28:34.822Z",
+      "customer": {
+        "name": "夏油傑",
+        "phone": "0900234567"
+      },
+      "pickupType": "takeout",
+      "takeTime": "2025-06-13T06:48:00.000Z",
+      "paymentMethod": "cash",
+      "items": [
+        {
+          "cartId": "a54d2d9b-c9ec-4a0b-b3af-d2d5bae67821",
+          "cateId": 5,
+          "prodId": 503,
+          "name": "豆漿",
+          "price": 20,
+          "quantity": 1,
+          "extraType": [
+            4,
+            5
+          ],
+          "extras": [
+            {
+              "id": 4,
+              "name": "尺寸",
+              "type": "size",
+              "options": [
+                {
+                  "id": 403,
+                  "name": "大",
+                  "price": 10,
+                  "quantity": 1
+                }
+              ]
+            },
+            {
+              "id": 5,
+              "name": "溫度",
+              "type": "tempture",
+              "options": [
+                {
+                  "id": 503,
+                  "name": "熱",
+                  "price": 0,
+                  "quantity": 1
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "totalPrice": 30,
+      "note": "不要糖",
+      "userId": "C02"
+    },
+    {
+      "orderId": "order_1750050633771",
+      "timestamp": "2025-06-16T05:10:33.771Z",
+      "customer": {
+        "name": "五夏大法好",
+        "phone": "0900123456"
+      },
+      "pickupType": "takeout",
+      "takeTime": "2025-06-16T05:30:00.000Z",
+      "paymentMethod": "cash",
+      "items": [
+        {
+          "cartId": "7d5b3052-f5f9-4546-8e15-c5e93f78f5cd",
+          "cateId": 1,
+          "prodId": 102,
+          "name": "牛肉起司堡",
+          "price": 75,
+          "quantity": 1,
+          "extraType": [
+            1
+          ],
+          "extras": []
+        },
+        {
+          "cartId": "fda8b4fb-a3c6-4583-bb69-f82822a50a72",
+          "cateId": 1,
+          "prodId": 101,
+          "name": "豬肉蛋漢堡",
+          "price": 65,
+          "quantity": 1,
+          "extraType": [
+            1
+          ],
+          "extras": []
+        }
+      ],
+      "totalPrice": 140,
+      "userId": "C03"
+    },
+    {
+      "orderId": "order_1750051139884",
+      "timestamp": "2025-06-16T05:18:59.884Z",
+      "customer": {
+        "name": "五夏大法好",
+        "phone": "0900123456"
+      },
+      "pickupType": "takeout",
+      "takeTime": "2025-06-16T05:38:00.000Z",
+      "paymentMethod": "cash",
+      "items": [
+        {
+          "cartId": "e2794bec-6540-42bd-8e61-674e1c333b26",
+          "cateId": 1,
+          "prodId": 101,
+          "name": "豬肉蛋漢堡",
+          "price": 65,
+          "quantity": 2,
+          "extraType": [
+            1
+          ],
+          "extras": []
+        }
+      ],
+      "totalPrice": 130,
+      "userId": "C03"
+    },
+    {
+      "orderId": "order_1750051382106",
+      "timestamp": "2025-06-16T05:23:02.106Z",
+      "customer": {
+        "name": "123",
+        "phone": "0901233333"
+      },
+      "pickupType": "takeout",
+      "takeTime": "2025-06-16T05:42:00.000Z",
+      "paymentMethod": "cash",
+      "items": [
+        {
+          "cartId": "39ba2d2f-49ea-480f-844c-eaebe8e55394",
+          "cateId": 1,
+          "prodId": 101,
+          "name": "豬肉蛋漢堡",
+          "price": 65,
+          "quantity": 1,
+          "extraType": [
+            1
+          ],
+          "extras": [
+            {
+              "id": 1,
+              "name": "加料",
+              "type": "add-on",
+              "options": [
+                {
+                  "id": 103,
+                  "name": "加起司",
+                  "price": 15,
+                  "quantity": 1
+                },
+                {
+                  "id": 104,
+                  "name": "加培根",
+                  "price": 15,
+                  "quantity": 1
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "totalPrice": 95,
+      "userId": null
+    },
+    {
+      "orderId": "order_1750051849821",
+      "timestamp": "2025-06-16T05:30:49.821Z",
+      "customer": {
+        "name": "121111",
+        "phone": "0911111111"
+      },
+      "pickupType": "takeout",
+      "takeTime": "2025-06-16T05:50:00.000Z",
+      "paymentMethod": "cash",
+      "items": [
+        {
+          "cartId": "30b90c65-3832-4cbf-ab9b-cb6387519f59",
+          "cateId": 1,
+          "prodId": 101,
+          "name": "豬肉蛋漢堡",
+          "price": 65,
+          "quantity": 1,
+          "extraType": [
+            1
+          ],
+          "extras": []
+        }
+      ],
+      "totalPrice": 65,
+      "userId": null
+    },
+    {
+      "orderId": "order_1750054954186",
+      "timestamp": "2025-06-16T06:22:34.186Z",
+      "customer": {
+        "name": "1",
+        "phone": "0911111111"
+      },
+      "pickupType": "takeout",
+      "takeTime": "2025-06-16T06:42:00.000Z",
+      "paymentMethod": "cash",
+      "items": [
+        {
+          "cartId": "05931b6e-2ff0-4cd4-ab0f-e900c29fb83b",
+          "cateId": 1,
+          "prodId": 101,
+          "name": "豬肉蛋漢堡",
+          "price": 65,
+          "quantity": 1,
+          "extraType": [
+            1
+          ],
+          "extras": []
+        }
+      ],
+      "totalPrice": 65,
+      "userId": null
+    },
+    {
+      "orderId": "order_1750055067510",
+      "timestamp": "2025-06-16T06:24:27.510Z",
+      "customer": {
+        "name": "五條悟",
+        "phone": "0900123456"
+      },
+      "pickupType": "takeout",
+      "takeTime": "2025-06-16T06:44:00.000Z",
+      "paymentMethod": "cash",
+      "items": [
+        {
+          "cartId": "9d98cb8d-29d6-4db5-bf67-a20dc6213496",
+          "cateId": 1,
+          "prodId": 101,
+          "name": "豬肉蛋漢堡",
+          "price": 65,
+          "quantity": 1,
+          "extraType": [
+            1
+          ],
+          "extras": []
+        }
+      ],
+      "totalPrice": 65,
+      "userId": "C01"
+    },
+    {
+      "orderId": "order_1750068635563",
+      "timestamp": "2025-06-16T10:10:35.563Z",
+      "customer": {
+        "name": "123",
+        "phone": "0912312312"
+      },
+      "pickupType": "takeout",
+      "takeTime": "2025-06-16T10:30:00.000Z",
+      "paymentMethod": "cash",
+      "items": [
+        {
+          "cartId": "a0c4d64b-82ad-4950-85bf-28dbf284ebc5",
+          "cateId": 1,
+          "prodId": 101,
+          "name": "豬肉蛋漢堡",
+          "price": 65,
+          "quantity": 1,
+          "extraType": [
+            1
+          ],
+          "extras": []
+        }
+      ],
+      "totalPrice": 65,
+      "userId": null
+    },
+    {
+      "orderId": "order_1750068859752",
+      "timestamp": "2025-06-16T10:14:19.752Z",
+      "customer": {
+        "name": "五條悟",
+        "phone": "0900123456"
+      },
+      "pickupType": "takeout",
+      "takeTime": "2025-06-16T10:34:00.000Z",
+      "paymentMethod": "cash",
+      "items": [
+        {
+          "cartId": "774431e5-0ce8-462a-88ef-1f725bf1c7c0",
+          "cateId": 1,
+          "prodId": 103,
+          "name": "花生醬漢堡",
+          "price": 70,
+          "quantity": 1,
+          "extraType": [
+            1
+          ],
+          "extras": [
+            {
+              "id": 1,
+              "name": "加料",
+              "type": "add-on",
+              "options": [
+                {
+                  "id": 104,
+                  "name": "加培根",
+                  "price": 15,
+                  "quantity": 1
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "totalPrice": 85,
+      "userId": "C01"
+    },
+    {
+      "orderId": "order_1750069458113",
+      "timestamp": "2025-06-16T10:24:18.113Z",
+      "customer": {
+        "name": "五條悟",
+        "phone": "0900123456"
+      },
+      "pickupType": "takeout",
+      "takeTime": "2025-06-16T10:44:00.000Z",
+      "paymentMethod": "cash",
+      "items": [
+        {
+          "cartId": "2ce2951f-61b4-4e45-aea7-49be76f3ef6a",
+          "cateId": 4,
+          "prodId": 404,
+          "name": "炸甜不辣",
+          "price": 40,
+          "quantity": 1,
+          "extraType": [
+            6
+          ],
+          "extras": [
+            {
+              "id": 6,
+              "name": "調味料",
+              "type": "condiments",
+              "options": [
+                {
+                  "id": 602,
+                  "name": "胡椒粉",
+                  "price": 0,
+                  "quantity": 1
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "cartId": "2a11c59a-6320-4d07-bf48-c057aec92cac",
+          "cateId": 3,
+          "prodId": 301,
+          "name": "花生吐司",
+          "price": 30,
+          "quantity": 1,
+          "extraType": [
+            3
+          ],
+          "extras": [
+            {
+              "id": 3,
+              "name": "麵包選擇",
+              "type": "single-choice",
+              "options": [
+                {
+                  "id": 302,
+                  "name": "改成厚片",
+                  "price": 15,
+                  "quantity": 1
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "totalPrice": 85,
+      "userId": "C01"
+    },
+    {
+      "orderId": "order_1750069656358",
+      "timestamp": "2025-06-16T10:27:36.358Z",
+      "customer": {
+        "name": "五條悟",
+        "phone": "0900123456"
+      },
+      "pickupType": "takeout",
+      "takeTime": "2025-06-16T10:47:00.000Z",
+      "paymentMethod": "cash",
+      "items": [
+        {
+          "cartId": "4c401fd2-c63e-4629-948a-9b8045d45c52",
+          "cateId": 1,
+          "prodId": 102,
+          "name": "牛肉起司堡",
+          "price": 75,
+          "quantity": 1,
+          "extraType": [
+            1
+          ],
+          "extras": [
+            {
+              "id": 1,
+              "name": "加料",
+              "type": "add-on",
+              "options": [
+                {
+                  "id": 103,
+                  "name": "加起司",
+                  "price": 15,
+                  "quantity": 1
+                },
+                {
+                  "id": 104,
+                  "name": "加培根",
+                  "price": 15,
+                  "quantity": 1
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "totalPrice": 105,
+      "userId": "C01"
+    }
+  ]
+}
