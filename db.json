@@ -32,180 +32,133 @@
         "name": "豬肉蛋漢堡",
         "cateId": 1,
         "price": 65,
-        "extraType": [
-          1
-        ]
+        "extraType": [1]
       },
       {
         "id": 102,
         "name": "牛肉起司堡",
         "cateId": 1,
         "price": 75,
-        "extraType": [
-          1
-        ]
+        "extraType": [1]
       },
       {
         "id": 103,
         "name": "花生醬漢堡",
         "cateId": 1,
         "price": 70,
-        "extraType": [
-          1
-        ]
+        "extraType": [1]
       },
       {
         "id": 104,
         "name": "總匯漢堡",
         "cateId": 1,
         "price": 85,
-        "extraType": [
-          1
-        ]
+        "extraType": [1]
       },
       {
         "id": 201,
         "name": "火腿蛋三明治",
         "cateId": 2,
         "price": 50,
-        "extraType": [
-          1,
-          2
-        ]
+        "extraType": [1, 2]
       },
       {
         "id": 202,
         "name": "鮪魚三明治",
         "cateId": 2,
         "price": 55,
-        "extraType": [
-          1,
-          2
-        ]
+        "extraType": [1, 2]
       },
       {
         "id": 203,
         "name": "總匯三明治",
         "cateId": 2,
         "price": 65,
-        "extraType": [
-          1,
-          2
-        ]
+        "extraType": [1, 2]
       },
       {
         "id": 301,
         "name": "花生吐司",
         "cateId": 3,
         "price": 30,
-        "extraType": [
-          3
-        ]
+        "extraType": [3]
       },
       {
         "id": 302,
         "name": "草莓果醬吐司",
         "cateId": 3,
         "price": 30,
-        "extraType": [
-          3
-        ]
+        "extraType": [3]
       },
       {
         "id": 303,
         "name": "奶酥吐司",
         "cateId": 3,
         "price": 35,
-        "extraType": [
-          3
-        ]
+        "extraType": [3]
       },
       {
         "id": 401,
         "name": "蘿蔔糕",
         "cateId": 4,
         "price": 35,
-        "extraType": [
-          1,
-          6
-        ]
+        "extraType": [1, 6]
       },
       {
         "id": 402,
         "name": "炸雞塊",
         "cateId": 4,
         "price": 45,
-        "extraType": [
-          6
-        ]
+        "extraType": [6]
       },
       {
         "id": 403,
         "name": "薯條",
         "cateId": 4,
         "price": 30,
-        "extraType": [
-          6
-        ]
+        "extraType": [6]
       },
       {
         "id": 404,
         "name": "炸甜不辣",
         "cateId": 4,
         "price": 40,
-        "extraType": [
-          6
-        ]
+        "extraType": [6]
       },
       {
         "id": 501,
         "name": "紅茶",
         "cateId": 5,
         "price": 20,
-        "extraType": [
-          4,
-          5
-        ]
+        "extraType": [4, 5]
       },
       {
         "id": 502,
         "name": "奶茶",
         "cateId": 5,
         "price": 25,
-        "extraType": [
-          4,
-          5
-        ]
+        "extraType": [4, 5]
       },
       {
         "id": 503,
         "name": "豆漿",
         "cateId": 5,
         "price": 20,
-        "extraType": [
-          4,
-          5
-        ]
+        "extraType": [4, 5]
       },
       {
         "id": 504,
         "name": "鮮奶茶",
         "cateId": 5,
         "price": 30,
-        "extraType": [
-          4,
-          5
-        ]
+        "extraType": [4, 5]
       },
       {
         "id": 505,
         "name": "美式咖啡",
         "cateId": 5,
         "price": 35,
-        "extraType": [
-          4,
-          5
-        ]
+        "extraType": [4, 5]
       }
     ],
     "extras": [
@@ -375,7 +328,7 @@
   "banners": [
     {
       "id": 1,
-      "image": "/images/banner1.jpg",
+      "image": "/breakfast-frontend/images/banner1.jpg",
       "title": "早起的幸福從這裡開始",
       "description": "現點現做的早餐",
       "ctaText": "立即點餐",
@@ -383,7 +336,7 @@
     },
     {
       "id": 2,
-      "image": "/images/banner2.jpg",
+      "image": "/breakfast-frontend/images/banner2.jpg",
       "title": "新鮮食材，健康美味",
       "description": "每天現磨新鮮豆漿",
       "ctaText": "查看更多",
@@ -409,9 +362,7 @@
           "name": "牛肉起司堡",
           "price": 75,
           "quantity": 1,
-          "extraType": [
-            1
-          ],
+          "extraType": [1],
           "extras": []
         }
       ],
@@ -436,10 +387,7 @@
           "name": "豆漿",
           "price": 20,
           "quantity": 1,
-          "extraType": [
-            4,
-            5
-          ],
+          "extraType": [4, 5],
           "extras": [
             {
               "id": 4,
@@ -492,9 +440,7 @@
           "name": "牛肉起司堡",
           "price": 75,
           "quantity": 1,
-          "extraType": [
-            1
-          ],
+          "extraType": [1],
           "extras": []
         },
         {
@@ -504,9 +450,7 @@
           "name": "豬肉蛋漢堡",
           "price": 65,
           "quantity": 1,
-          "extraType": [
-            1
-          ],
+          "extraType": [1],
           "extras": []
         }
       ],
@@ -531,9 +475,7 @@
           "name": "豬肉蛋漢堡",
           "price": 65,
           "quantity": 2,
-          "extraType": [
-            1
-          ],
+          "extraType": [1],
           "extras": []
         }
       ],
@@ -558,9 +500,7 @@
           "name": "豬肉蛋漢堡",
           "price": 65,
           "quantity": 1,
-          "extraType": [
-            1
-          ],
+          "extraType": [1],
           "extras": [
             {
               "id": 1,
@@ -605,9 +545,7 @@
           "name": "豬肉蛋漢堡",
           "price": 65,
           "quantity": 1,
-          "extraType": [
-            1
-          ],
+          "extraType": [1],
           "extras": []
         }
       ],
@@ -632,9 +570,7 @@
           "name": "豬肉蛋漢堡",
           "price": 65,
           "quantity": 1,
-          "extraType": [
-            1
-          ],
+          "extraType": [1],
           "extras": []
         }
       ],
@@ -659,9 +595,7 @@
           "name": "豬肉蛋漢堡",
           "price": 65,
           "quantity": 1,
-          "extraType": [
-            1
-          ],
+          "extraType": [1],
           "extras": []
         }
       ],
@@ -686,9 +620,7 @@
           "name": "豬肉蛋漢堡",
           "price": 65,
           "quantity": 1,
-          "extraType": [
-            1
-          ],
+          "extraType": [1],
           "extras": []
         }
       ],
@@ -713,9 +645,7 @@
           "name": "花生醬漢堡",
           "price": 70,
           "quantity": 1,
-          "extraType": [
-            1
-          ],
+          "extraType": [1],
           "extras": [
             {
               "id": 1,
@@ -754,9 +684,7 @@
           "name": "炸甜不辣",
           "price": 40,
           "quantity": 1,
-          "extraType": [
-            6
-          ],
+          "extraType": [6],
           "extras": [
             {
               "id": 6,
@@ -780,9 +708,7 @@
           "name": "花生吐司",
           "price": 30,
           "quantity": 1,
-          "extraType": [
-            3
-          ],
+          "extraType": [3],
           "extras": [
             {
               "id": 3,
@@ -821,9 +747,7 @@
           "name": "牛肉起司堡",
           "price": 75,
           "quantity": 1,
-          "extraType": [
-            1
-          ],
+          "extraType": [1],
           "extras": [
             {
               "id": 1,
