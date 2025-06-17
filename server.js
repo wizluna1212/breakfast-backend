@@ -215,6 +215,45 @@ app.get("/banners", (req, res) => {
   });
 });
 
+// 更新會員資料（生日、電話）
+app.put("/users/:id/profile", authMiddleware, (req, res) => {
+  const userId = req.params.id;
+  const { phone, birthday } = req.body;
+
+  if (userId !== req.userId) {
+    return res.status(403).json({
+      code: 403,
+      message: "無權限修改其他用戶資料",
+    });
+  }
+
+  const user = dbData.user.find((u) => u.id === userId);
+  if (!user) {
+    return res.status(404).json({
+      code: 404,
+      message: "找不到用戶",
+    });
+  }
+
+  // 更新資料
+  if (phone !== undefined) user.phone = phone;
+  if (birthday !== undefined) user.birthday = birthday;
+
+  saveDB();
+
+  res.json({
+    code: 0,
+    message: "會員資料更新成功",
+    data: {
+      id: user.id,
+      name: user.name,
+      email: user.email,
+      phone: user.phone,
+      birthday: user.birthday,
+    },
+  });
+});
+
 // 更新密碼
 app.patch("/users/:id", authMiddleware, (req, res) => {
   const userId = req.params.id;
