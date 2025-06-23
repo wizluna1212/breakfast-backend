@@ -296,7 +296,7 @@
       "id": "C01",
       "name": "測試員",
       "email": "user1@example.com",
-      "password": "123456Bl",
+      "password": "Test123123",
       "phone": "0900123456",
       "birthday": "199/01/01",
       "createdAt": "2025-03-16T12:34:56Z"
